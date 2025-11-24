@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use the AFEOL Project in your research, development, or publications, please cite it using the following metadata."
+title: "AFEOL Project"
+abstract: >
+  The AFEOL Project is an independent, privacy-centric research initiative focusing on cryptographic
+  specifications (ZX-AE), anonymity-preserving communication systems, Su6 authentication models,
+  darknet-compatible architectures (Tor/I2P), and secure open-source tooling.
+authors:
+  - family-names: "AFEOL"
+    given-names: "Project"
+    email: "afeol@proton.me"
+    affiliation: "Independent Research Initiative"
+keywords:
+  - privacy
+  - cryptography
+  - XChaCha20
+  - ZX-AE
+  - authentication
+  - Tor
+  - I2P
+  - anonymity
+  - secure communication
+  - open source
+license: "MIT"
+version: "0.1.0"
+date-released: "2025-11-25"
+repository-code: "https://github.com/AfeolProject/AfeolProject"
