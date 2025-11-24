@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="afeol_logo.svg" alt="AFEOL Project Logo" width="260">
+  <img src="AFEOL-03.jpg" width="260" alt="AFEOL Logo">
   <h1>AFEOL Project</h1>
   <sub>Privacy-centric research • Cryptographic formats • Tor/I2P architectures</sub>
 </div>
