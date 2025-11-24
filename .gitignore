@@ -1,0 +1,117 @@
+# ---------------------------------------
+# AFEOL Project – Master .gitignore
+# Supports: Rust, Kotlin/Android, Python,
+# PHP, Node(minimal), Docker, Linux, JetBrains
+# ---------------------------------------
+
+###############
+# OS FILES
+###############
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux temp
+*~
+*.swp
+*.swo
+
+###############
+# RUST
+###############
+/target/
+/Cargo.lock
+**/*.rs.bk
+
+###############
+# KOTLIN / ANDROID
+###############
+*.iml
+.gradle/
+local.properties
+/.idea/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.dex
+*.class
+*.log
+*.keystore
+*.jks
+*.so
+*.aab
+/.gradle/
+/build/
+
+###############
+# PYTHON
+###############
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.mypy_cache/
+.env
+.venv/
+
+###############
+# PHP
+###############
+vendor/
+composer.lock
+
+###############
+# NODE (Minimal – only tooling allowed)
+###############
+node_modules/
+npm-debug.log
+yarn-error.log
+
+###############
+# VS CODE
+###############
+.vscode/
+.history/
+
+###############
+# JETBRAINS
+###############
+.idea/
+*.iws
+*.ipr
+*.iml
+
+###############
+# LOGS / TEMP
+###############
+logs/
+*.log
+*.tmp
+*.temp
+
+###############
+# DOCKER
+###############
+/docker-data/
+/var/
+/mnt/
+/tmp/
+
+###############
+# IMAGE CACHE
+###############
+*.png.tmp
+*.jpg.tmp
+*.svg.tmp
+
+###############
+# MISC
+###############
+*.bak
+*.old
+*.orig
+*.rej
