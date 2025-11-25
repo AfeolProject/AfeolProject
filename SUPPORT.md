@@ -1,105 +1,170 @@
-# SUPPORT.md  
-AFEOL Project – Support & Assistance Guide
+# AFEOL Project – Support & Assistance Guide
 
-This document explains how users, contributors, and researchers can request help, report problems, and find guidance for using any part of the AFEOL ecosystem (Portal / Su6 / SecureGSM / ZX-AE / Docs / Other modules).
-
----
-
-## 1. General Rules
-
-- Support is **community-driven** and privacy-respecting.  
-- No personal data is required or requested.  
-- All communication must follow the principles of anonymity, security, and responsible disclosure.  
-- Sensitive issues should always be reported privately.
+The AFEOL Project is built around privacy, anonymity, cryptographic integrity,  
+and a strict security-first philosophy. This guide explains how to request help,  
+ask questions, and communicate securely with AFEOL maintainers.
 
 ---
 
-## 2. When to Use Support
+## 1. General Principles
 
-Use this support guide if you need help with:
+All support communication is:
 
-- Installation problems (Linux, Android, servers, Tor/I2P setup)  
-- Misconfiguration or unexpected behavior  
-- Documentation questions  
-- Feature clarifications  
-- AFEOL standards compliance (coding, documentation, security)  
-- General usage questions related to AFEOL tools or modules  
+- **Privacy-respecting** (no personal data needed)
+- **Anonymous-friendly** (Tor strongly recommended)
+- **Encrypted-capable** (PGP public key available)
+- **Minimalistic** (only essential technical details)
+- **Open-source aligned** (transparent, auditable, reproducible)
 
-For **bugs** or **feature requests**, use GitHub Issue Templates instead.
-
----
-
-## 3. Private Support (Recommended)
-
-If you need private or anonymous communication:
-
-📩 **afeol@proton.me**  
-_(Tor/I2P anonymity is welcome but not required)_
-
-Use private support for:
-
-- Security-related questions  
-- Unintentionally exposed data  
-- Vulnerability discussions  
-- Internal design questions  
-- Anything you don’t wish to make public  
+AFEOL maintainers **never** use:
+- analytics, telemetry, tracking cookies  
+- JavaScript forms  
+- cloud identity providers  
+- third-party ticketing systems  
 
 ---
 
-## 4. Public Support (GitHub)
+## 2. When to Request Support
 
-Public channels are suitable for:
+Use this guide when you need help with:
 
-- General questions  
-- Non-sensitive issues  
-- Documentation feedback  
-- Community discussions  
+### ✔ Installation & Configuration  
+- Linux server setup (Debian/Ubuntu/BSD)
+- Tor-only or Tor-preferred environments
+- Local hosting and isolated deployments
 
-You may open:
+### ✔ Documentation Clarifications  
+- Publicly released AFEOL specifications  
+- General architecture, configuration, or behavior of public modules
 
-- **Bug report:** `.github/ISSUE_TEMPLATE/bug_report.md`  
-- **Feature request:** `.github/ISSUE_TEMPLATE/feature_request.md`  
-- **Pull request:** `.github/PULL_REQUEST_TEMPLATE.md`  
+### ✔ Feature Behavior Questions  
+- “expected vs actual” behavior  
+- workflow explanations  
+- stability or compatibility questions
 
-Always avoid posting logs or data that contain any sensitive or identifying information.
-
----
-
-## 5. Community Recommendations
-
-To keep support efficient and high-quality:
-
-- Describe your problem clearly  
-- Include minimal reproducible steps when possible  
-- Mention your environment (Debian, Ubuntu, Android, Tor/I2P mode, etc.)  
-- Stay respectful and constructive  
-- Follow AFEOL Code of Conduct and Security Policy  
+### ✔ Security-Sensitive or Privacy-Relevant Issues  
+Use **encrypted email** for communication that includes:
+- cryptographic concerns  
+- metadata/privacy implications  
+- system logs or PoC snippets  
+- potential vulnerabilities  
 
 ---
 
-## 6. Scope of Support
+## 3. How to Contact AFEOL Maintainers
 
-Supported components include:
+### 📩 Official Contact (Email)
+**afeol@proton.me**
 
-- **AFEOL Portal** (all modules)  
-- **Su6 Authentication Framework**  
-- **SecureGSM (Android)**  
-- **ZX-AE Specification (v1.x)**  
-- **AFEOL Docs & Standards**  
-- **Linux server environments (Debian/Kali/Ubuntu)**  
+You may write from:
+- anonymous ProtonMail account  
+- any Tor-compatible mail service  
+- Tails / Whonix / Tor Browser  
 
-Unsupported areas:
-
-- Windows OS  
-- Proprietary cloud tooling  
-- Third-party forks  
-- Any code that violates AFEOL privacy/security rules  
+> **Note:** ProtonMail supports Tor access.  
+> I2P is *not supported* for email delivery — do not attempt to send via I2P mail services.
 
 ---
 
-## 7. Final Notes
+## 4. PGP Encryption (Recommended)
 
-The AFEOL project is a privacy-centric, open-source research initiative.  
-All support is provided without tracking, telemetry, or data collection.
+Public PGP key (ASCII armored):  
+`https://raw.githubusercontent.com/AfeolProject/AfeolProject/main/.well-known/pgp.asc`
 
-Thank you for using and contributing to AFEOL.
+Use PGP encryption for:
+- vulnerability details  
+- sensitive configuration snippets  
+- logs containing environment info  
+- privacy or metadata concerns  
+
+Do **not** include:
+- personal identity  
+- IP addresses  
+- geolocation  
+- anything linking you to real-world identity  
+
+---
+
+## 5. Tor-Compatible Support
+
+AFEOL strongly encourages the use of **Tor Browser** or privacy-preserving OS environments:
+
+- Tor Browser  
+- Tails OS  
+- Whonix  
+- Hardened Debian with Tor routing  
+
+All public AFEOL resources are Tor-safe and do not require JavaScript.
+
+### ⚠ I2P Notice
+Although AFEOL philosophy supports darknet-friendly systems,  
+**email support cannot be reached via I2P (technical limitation)**.  
+Use **Tor** for communication that requires maintainers’ response.
+
+---
+
+## 6. Public vs Private Support
+
+### 🔒 Private (Encrypted Email)
+Use when communicating:
+- potential vulnerabilities  
+- cryptographic issues  
+- network security behavior  
+- metadata or privacy leaks  
+
+### 🌐 Public (GitHub Issues)
+Use for:
+- bugs not related to security  
+- feature requests  
+- documentation improvements  
+- clarification of public modules
+
+Never publish:
+- vulnerabilities  
+- sensitive logs  
+- configuration secrets  
+
+---
+
+## 7. What NOT to Send
+
+For your safety, never include:
+
+❌ personal data  
+❌ real IP addresses  
+❌ device identifiers  
+❌ browser fingerprints  
+❌ photos/screenshots revealing personal information  
+❌ cloud drive links (Google Drive, OneDrive, Dropbox, etc.)
+
+AFEOL maintainers will **never** request:
+- identity documents  
+- phone number  
+- social accounts  
+- real-world personal details  
+
+---
+
+## 8. Response Time
+
+- Acknowledgment: **within 72 hours**  
+- Non-security issues: **3–7 days**  
+- Security-sensitive issues: **7–14 days**  
+(Depends on severity and complexity.)
+
+---
+
+## 9. Philosophy of Support
+
+By requesting support, you acknowledge:
+
+- The project is defensive, security-oriented, and privacy-first  
+- All communication should be minimal and encrypted when relevant  
+- Maintain­ers may ask for additional *technical* clarification  
+- Sensitive issues must remain private until officially resolved  
+
+---
+
+Thank you for helping keep the AFEOL Project secure, private, and resilient.  
+Your contributions improve safety for researchers, journalists, privacy advocates,  
+and individuals worldwide who depend on anonymity and cryptographic integrity.
