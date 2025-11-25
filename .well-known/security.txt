@@ -1,6 +1,6 @@
 Contact: mailto:afeol@proton.me
 Encryption: https://raw.githubusercontent.com/AfeolProject/AfeolProject/main/.well-known/pgp.asc
-Preferred-Languages: en, sr
+Preferred-Languages: en & sr
 Canonical: https://raw.githubusercontent.com/AfeolProject/AfeolProject/main/.well-known/security.txt
 Policy: https://raw.githubusercontent.com/AfeolProject/AfeolProject/main/SECURITY.md
 Hiring: https://github.com/AfeolProject
