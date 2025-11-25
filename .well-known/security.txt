@@ -1,12 +1,85 @@
-Contact: mailto:afeol@proton.me
-Encryption: https://raw.githubusercontent.com/AfeolProject/AfeolProject/main/.well-known/pgp.asc
-Preferred-Languages: en & sr
-Canonical: https://raw.githubusercontent.com/AfeolProject/AfeolProject/main/.well-known/security.txt
-Policy: https://raw.githubusercontent.com/AfeolProject/AfeolProject/main/SECURITY.md
-Hiring: https://github.com/AfeolProject
-Acknowledgments: https://raw.githubusercontent.com/AfeolProject/AfeolProject/main/SECURITY_CREDITS.md
+# Security Policy
 
-# Notes:
-# - Anonymous and pseudonymous reporting is accepted.
-# - Tor communication is supported. I2P is not currently available.
-# - Please do NOT include sensitive personal data when reporting vulnerabilities.
+This document describes how to report security vulnerabilities for this repository
+and how the AFEOL maintainer handles them.
+
+## 1. Reporting a Vulnerability
+
+If you believe you have found a security vulnerability, contact the maintainer **privately** and **do not open a public GitHub issue**.
+
+### Preferred contact channels
+
+- Email: **afeol@proton.me**
+- PGP key (for encrypted reports): available in  
+  `/.well-known/pgp.asc`
+- PGP key ID: **0xF5C291C51ADBE07F**
+
+Include if possible:
+- a short description of the issue  
+- proof-of-concept or reproduction steps  
+- affected components or configuration  
+- potential impact and severity in your opinion  
+
+Please avoid:
+- exploiting the vulnerability in production  
+- modifying or accessing data that is not yours  
+- DoS or stress testing against live systems  
+
+## 2. Scope
+
+### In scope
+- Source code, scripts and configuration stored in this repository  
+- Official AFEOL project modules referenced by this repository  
+- Deployments clearly controlled by the AFEOL maintainer  
+
+### Out of scope
+- Third-party libraries or services  
+- Hardware or OS-level vulnerabilities  
+- Social engineering or phishing attempts  
+- Issues unrelated to security (use GitHub Issues instead)  
+
+If unsure, report privately — the issue will be triaged in good faith.
+
+## 3. Vulnerability Handling Process
+
+Valid reports follow a structured review and response process:
+
+1. **Acknowledgement**  
+   - Initial response within **7 days**.
+2. **Triage & validation**  
+   - Confirm issue, determine scope and severity.
+3. **Fix development**  
+   - Patch created and tested; discussion kept private.
+4. **Release**  
+   - Patch published, mitigation steps documented.
+5. **Coordinated disclosure**  
+   - Researcher is credited if they request it; anonymity respected.
+
+### Target timelines (non-binding)
+
+- Acknowledgement: ≤ 7 days  
+- Technical assessment: ≤ 14 days  
+- Fix & release: ≤ 90 days  
+
+## 4. Responsible Disclosure
+
+The AFEOL project supports responsible, coordinated disclosure.  
+We commit to:
+
+- respectful and confidential communication  
+- no legal action against ethical researchers  
+- reasonable timeframes for mitigation  
+- transparent advisories once fixes are released  
+
+## 5. Non-Security Issues
+
+For non-security bugs, feature requests and general improvements, please use:
+
+- **GitHub Issues** → public, transparent workflow  
+
+Security contacts must remain dedicated **only** to vulnerability reporting.
+
+## 6. Relation to `.well-known/security.txt`
+
+This repository includes a machine-readable `security.txt` file in:
+
