@@ -8,5 +8,5 @@ Acknowledgments: https://raw.githubusercontent.com/AfeolProject/AfeolProject/mai
 
 # Notes:
 # - Anonymous and pseudonymous reporting is accepted.
-# - Tor/I2P communication is also welcome.
+# - Tor communication is supported. I2P is not currently available.
 # - Please do NOT include sensitive personal data when reporting vulnerabilities.
