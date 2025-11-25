@@ -35,7 +35,7 @@ Anonymous reporting is welcome (Tor/I2P recommended).
 
 ---
 
-## 🔐 2.1. Encrypted Vulnerability Reports (PGP)
+### 🔐 2.1. Encrypted Vulnerability Reports (PGP)
 
 Security researchers may encrypt their reports using the official AFEOL PGP key.
 
@@ -45,7 +45,15 @@ https://raw.githubusercontent.com/AfeolProject/AfeolProject/main/.well-known/pgp
 **Fingerprint:**  
 `6E09 8D86 93AE 0C54 C8F6 B66E F5C2 91C5 1ADB E07F`
 
-Using encryption is strongly recommended for any report that contains technical details about vulnerabilities, internal architecture, or sensitive metadata.
+**Preferred Languages:** `en & sr`
+
+Using PGP encryption is strongly recommended for any report that contains technical
+details about vulnerabilities, internal architecture, metadata exposure, or
+any other sensitive information that should not travel in plain text.
+
+Anonymous submissions are supported (Tor recommended).  
+I2P submissions are supported *only if* the user sends the message to Proton Mail via Tor → Exit → Proton,  
+because Proton Mail does not accept direct I2P routing.
 
 ---
 
