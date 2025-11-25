@@ -35,6 +35,20 @@ Anonymous reporting is welcome (Tor/I2P recommended).
 
 ---
 
+## 🔐 2.1. Encrypted Vulnerability Reports (PGP)
+
+Security researchers may encrypt their reports using the official AFEOL PGP key.
+
+**PGP Public Key:**  
+https://raw.githubusercontent.com/AfeolProject/AfeolProject/main/.well-known/pgp.asc
+
+**Fingerprint:**  
+`6E09 8D86 93AE 0C54 C8F6 B66E F5C2 91C5 1ADB E07F`
+
+Using encryption is strongly recommended for any report that contains technical details about vulnerabilities, internal architecture, or sensitive metadata.
+
+---
+
 ## 3. Scope of Security Considerations
 
 The following areas are considered critical:
