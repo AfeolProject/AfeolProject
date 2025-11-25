@@ -1,0 +1,12 @@
+Contact: mailto:afeol@proton.me
+Encryption: https://raw.githubusercontent.com/AfeolProject/AfeolProject/main/SECURITY_PGP_KEY.asc
+Preferred-Languages: en, sr
+Canonical: https://raw.githubusercontent.com/AfeolProject/AfeolProject/main/.well-known/security.txt
+Policy: https://raw.githubusercontent.com/AfeolProject/AfeolProject/main/SECURITY.md
+Hiring: https://github.com/AfeolProject
+Acknowledgments: https://raw.githubusercontent.com/AfeolProject/AfeolProject/main/SECURITY_CREDITS.md
+
+# Notes:
+# - Anonymous and pseudonymous reporting is accepted.
+# - Tor/I2P communication is also welcome.
+# - Please do NOT include sensitive personal data when reporting vulnerabilities.
