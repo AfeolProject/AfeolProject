@@ -1,1 +1,12 @@
+# Global owners
 * @AfeolProject
+
+# GitHub Workflow files
+.github/workflows/* @AfeolProject
+
+# Documentation
+*.md @AfeolProject
+
+# Security / Licensing
+LICENSE @AfeolProject
+SECURITY.md @AfeolProject
