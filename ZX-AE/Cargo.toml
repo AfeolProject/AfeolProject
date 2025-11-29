@@ -1,0 +1,12 @@
+[package]
+name = "zx_ae"
+version = "1.0.0"
+edition = "2021"
+authors = ["AFEOL Project"]
+license = "MIT"
+description = "ZX-AE v1.0 — XChaCha20-Poly1305 authenticated encrypted container format."
+
+[dependencies]
+rand = "0.8"
+chacha20poly1305 = "0.10"
+zstd = "0.13"
