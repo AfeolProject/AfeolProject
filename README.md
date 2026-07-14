@@ -3,7 +3,7 @@
 
 Independent research in cryptography, privacy, secure communication, and distributed systems.
 
-Public open-source software, developer tools, and technical standards are published through the **AFEOL Organization**:
+Open-source software, technical standards, and developer tools resulting from this research are published through the **AFEOL Organization**.
 
 https://github.com/AfeolOrg
 
@@ -25,13 +25,13 @@ Research should be:
 - Reproducible
 - Technically rigorous
 - Open for discussion
-- Built on long-term thinking
+- Focused on long-term solutions
 
 ## Open Source
 
-This profile focuses on research.
+This profile is dedicated to research.
 
-Public software projects are maintained in the **AFEOL Organization**:
+Projects that reach production quality are published through the **AFEOL Organization**.
 
 https://github.com/AfeolOrg
 
@@ -47,7 +47,7 @@ https://github.com/AfeolOrg
 
 Независно истраживање из области криптографије, приватности, безбедних комуникација и дистрибуираних система.
 
-Јавни пројекти отвореног кода, програмерски алати и технички стандарди објављују се у оквиру **AFEOL организације**:
+Софтвер отвореног кода, технички стандарди и програмерски алати који настану као резултат овог истраживања објављују се у оквиру **AFEOL Organization**.
 
 https://github.com/AfeolOrg
 
@@ -73,9 +73,9 @@ https://github.com/AfeolOrg
 
 ## Отворени код
 
-Овај профил је намењен истраживању.
+Овај профил је посвећен истраживању.
 
-Јавни софтверски пројекти развијају се у оквиру **AFEOL организације**:
+Пројекти који достигну продукциони квалитет објављују се у оквиру **AFEOL Organization**.
 
 https://github.com/AfeolOrg
 
