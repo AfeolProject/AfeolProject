@@ -1,121 +1,90 @@
-<div align="center">
-  <img src="AFEOL-03.jpg" width="260" alt="AFEOL Logo">
-  <h1>AFEOL Project</h1>
-  <sub>Privacy-centric research • Cryptographic formats • Tor/I2P architectures</sub>
-</div>
+
+# AFEOL Project
+
+Independent research in cryptography, privacy, secure communication, and distributed systems.
+
+Public open-source software, developer tools, and technical standards are published through the **AFEOL Organization**:
+
+https://github.com/AfeolOrg
 
 ---
 
-# English
+## Research Areas
 
-## Mission
-AFEOL is an independent personal research project focused on developing privacy-preserving, censorship-resistant, and cryptographic technologies.  
-The work explores secure communication models, authenticated encryption formats, and protocols designed for Tor and I2P environments.
+- Cryptography
+- Privacy Technologies
+- Secure Communication
+- Distributed Systems
+- Experimental Protocols
 
-## Areas of Focus
-- Advanced encryption formats and authenticated data models  
-- Privacy-oriented communication systems  
-- Threat-model-driven engineering  
-- Tor + I2P compatible architectures  
-- Open-source tools that reinforce anonymity and user control  
+## Philosophy
 
-## Licensing
-All research, code, and documentation in this project are released under the **MIT License**, enabling transparent and verifiable collaboration.
+Research should be:
 
-For full details, see: **LICENSE** (MIT).
+- Transparent
+- Reproducible
+- Technically rigorous
+- Open for discussion
+- Built on long-term thinking
 
-## Credits – Logo Design
-The official AFEOL visual identity was designed by:
+## Open Source
 
-**Milan Vasiljević** (Belgrade, Serbia)  
-**Studio:** Design Studio Beograd  
-📧 **designstudiobeograd@gmail.com**
+This profile focuses on research.
 
-The logo is provided with explicit permission for use in the AFEOL project and its public materials.
+Public software projects are maintained in the **AFEOL Organization**:
 
-## Security Notice
-This project is intended **strictly for educational, defensive, and research purposes**.  
-It does **not** encourage misuse, unlawful activity, or bypassing legal frameworks.
-
-Users are fully responsible for how they deploy and operate the software.
-
-## Contributions
-Contributions are welcome in the form of:
-
-- Security reviews  
-- Code improvements  
-- Documentation enhancements  
-- Architectural discussions  
-- Threat-model proposals  
-
-Please open an issue before submitting a pull request.
+https://github.com/AfeolOrg
 
 ## Contact
-📧 **afeol@proton.me**
 
-## Roadmap (Preview)
-- Public cryptographic specifications  
-- Zero-metadata protocol concepts  
-- Hardened communication models  
-- Tor/I2P integration improvements  
-- Community security review cycles  
+🌐 https://afeol.com
+
+📧 afeol@proton.me
 
 ---
 
-# Српски
+# AFEOL Пројекат
 
-## Мисија
-AFEOL је независан лични пројекат усмерен ка развијању технолошких решења која штите приватност, анонимност и отпорност на цензуру.  
-Фокус је на криптографским моделима, шифрованим комуникационим форматима и протоколима прилагођеним Tor и I2P окружењима.
+Независно истраживање из области криптографије, приватности, безбедних комуникација и дистрибуираних система.
 
-## Области рада
-- Напредни формати за енкрипцију и аутентификовани модели података  
-- Комуникациони системи оријентисани на приватност  
-- Инжењеринг вођен претњама (Threat-Model Driven Design)  
-- Архитектуре компатибилне са Tor и I2P мрежама  
-- Алати отвореног кода који јачају приватност, анонимност и корисничку контролу  
+Јавни пројекти отвореног кода, програмерски алати и технички стандарди објављују се у оквиру **AFEOL организације**:
 
-## Лиценцирање
-Сав код и документација у оквиру пројекта доступни су под **MIT лиценцом**, што омогућава транспарентну и верификовану сарадњу у оквиру заједнице.
+https://github.com/AfeolOrg
 
-## Ауторска заслуга – Лого
-Званични визуелни идентитет AFEOL пројекта је дизајнирао:
+---
 
-**Милан Васиљевић** (Београд, Србија)  
-**Студио:** Design Studio Beograd  
-📧 **designstudiobeograd@gmail.com**
+## Области истраживања
 
-Лого је објављен уз изричиту дозволу аутора и може се користити у оквиру AFEOL пројекта и пратећих јавних материјала.
+- Криптографија
+- Технологије приватности
+- Безбедне комуникације
+- Дистрибуирани системи
+- Експериментални протоколи
 
-## Безбедносна напомена
-AFEOL пројекат намењен је искључиво: Едукативним, истраживачким и дефанзивним сврхама.  
-Намена није подстрекивање злоупотребе, кршења закона или заобилажења легитимних правила.
+## Филозофија
 
-Одговорност за имплементацију и употребу кода у потпуности је на кориснику.
+Истраживање треба да буде:
 
-## Учествовање
-Добродошле су:
+- Транспарентно
+- Поновљиво
+- Технички утемељено
+- Отворено за дискусију
+- Усмерено на дугорочна решења
 
-- безбедносне рецензије  
-- предлози оптимизације кода  
-- унапређења документације  
-- архитектонске анализе  
-- предлози за threat-model  
+## Отворени код
 
-Пре pull request-а, пожељно је отворити issue ради договора око измена.
+Овај профил је намењен истраживању.
+
+Јавни софтверски пројекти развијају се у оквиру **AFEOL организације**:
+
+https://github.com/AfeolOrg
 
 ## Контакт
-📧 **afeol@proton.me**
 
-## План развоја (Roadmap – Најава)
-- Јавне криптографске спецификације  
-- Напредни zero-metadata модели  
-- Шифровани комуникациони формати  
-- Интеграција са Tor/I2P окружењима  
-- Community security review циклуси  
+🌐 https://afeol.com
+
+📧 afeol@proton.me
 
 ---
 
-<div align="center">
-  <sub>© 2025 AFEOL Project • MIT License</sub>
-</div>
+© 2026 AFEOL
